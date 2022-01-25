@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class BookController {
 	@GetMapping("/books")
 	public List<Book> getAllBooks(){
-		return Arrays.asList(new Book(1l,"panchtantra","munsi prem chand"));
+		return Arrays.asList(new Book(1l,"panchtantra","Suhail rem chand"));
 	}
 }
